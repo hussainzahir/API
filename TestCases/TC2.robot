@@ -23,7 +23,6 @@ Get_alert
     input text  //*[@id="password"]  Xe*
     wait until element is enabled  //*[@id="signIn"]/button
     click button  //*[@id="signIn"]/button
-
 #    [Tags]    DEBUG
 #    ${auth}=    create list     alerts      Smarts99$
 #    create session  mysession   ${baseurl}      auth=${auth}
